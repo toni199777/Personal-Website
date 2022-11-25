@@ -1,0 +1,164 @@
+/*********************Tag Selector*************/
+body {
+  color: #40514E;
+  background-color: #fff;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+  line-height: 2;
+}
+
+h2 {
+  color: #E97777;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+}
+
+h3 {
+  color: #EA5E5E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #ED3833;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+/************************Class Selector**************/
+.top-container {
+  background-color: #E97777;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  position: relative;
+  height: 650px;
+}
+
+.middle-conta {
+  margin: 100px 0;
+}
+
+.computer {
+  width: 20%;
+  float: right;
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.emoimage {
+  position: absolute;
+  left: 200px;
+  top: 100px;
+}
+
+.webdev {
+  position: absolute;
+  left: 470px;
+  right: auto;
+  bottom: 0;
+}
+
+.webdesign {
+  width: 20%;
+  float: left;
+  padding-right: 30px;
+}
+
+.heading {
+  color: #EDEDED;
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625em;
+  padding-top: 10px;
+  line-height: 2;
+}
+
+.heading2 {
+  color: #EDEDED;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2em;
+  font-weight: normal;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 40px auto 60px auto;
+}
+
+.bottom-container {
+  background-color: #E97777;
+  padding: 50px 0 20px;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.btn {
+  background: #EA5E5E;
+  background-image: -webkit-linear-gradient(top, #EA5E5E, #E97777);
+  background-image: -moz-linear-gradient(top, #EA5E5E, #E97777);
+  background-image: -ms-linear-gradient(top, #EA5E5E, #E97777);
+  background-image: -o-linear-gradient(top, #EA5E5E, #E97777);
+  background-image: linear-gradient(to bottom, #EA5E5E, #E97777);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #FFBC65;
+  background-image: -webkit-linear-gradient(top, #FFBC65, #AC4C5E);
+  background-image: -moz-linear-gradient(top, #FFBC65, #AC4C5E);
+  background-image: -ms-linear-gradient(top, #FFBC65, #AC4C5E);
+  background-image: -o-linear-gradient(top, #FFBC65, #AC4C5E);
+  background-image: linear-gradient(to bottom, #FFBC65, #AC4C5E);
+  text-decoration: none;
+}
+
+/*********************ID SELECTOR*****************/
+#myemo {
+  padding-top: 20px;
+}
